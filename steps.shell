@@ -1,3 +1,5 @@
+kubectl auth can-i get pods --namespace default --as user1
+
 kubectl apply -f role.yaml
 
 kubectl apply -f role-binding.yaml
