@@ -1,3 +1,7 @@
+minikube start --extra-config=apiserver.authorization-mode=RBAC
+
+-------------------------------------------------------------
+
 kubectl auth can-i get pods --namespace default --as user1
 
 kubectl apply -f role.yaml
